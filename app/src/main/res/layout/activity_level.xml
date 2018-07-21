@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/levelactivity"
+    android:padding="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stars1"
+    android:orientation="vertical"
+    >
+
+
+    <ImageButton
+        android:id="@+id/backbut"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/backbutton"
+
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/modetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/classic_mode"
+
+
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+
+            <Button
+                android:id="@+id/butlvl1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@mipmap/topcolorblue"
+                android:scaleType="fitXY"
+                android:text="@string/_1"
+                android:textAlignment="center"
+
+                android:textSize="50sp"
+                tools:ignore="ButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/butlvl2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@mipmap/topcolorgreen"
+                android:scaleType="fitXY"
+                android:text="@string/_2"
+                android:textSize="50sp"
+                tools:ignore="ButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/butlvl3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@mipmap/topcoloryellow"
+                android:scaleType="fitXY"
+                android:text="@string/_3"
+                android:textSize="50sp"
+                tools:ignore="ButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/butlvl4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@mipmap/topcolorred"
+                android:scaleType="fitXY"
+                android:text="@string/_4"
+                android:textSize="50sp"
+                tools:ignore="ButtonStyle"
+                />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <Button
+                android:id="@+id/butlvl5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@mipmap/topcolorgreen"
+                android:scaleType="fitXY"
+                android:text="@string/_5"
+                android:textSize="50sp"
+                tools:ignore="ButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/butlvl6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@mipmap/topcoloryellow"
+                android:scaleType="fitXY"
+                android:text="@string/_6"
+                android:textSize="50sp"
+                tools:ignore="ButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/butlvl7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@mipmap/topcolorred"
+                android:scaleType="fitXY"
+                android:text="@string/_7"
+                android:textSize="50sp"
+                tools:ignore="ButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/butlvl8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@mipmap/topcolorblue"
+                android:scaleType="fitXY"
+                android:text="@string/_8"
+                android:textSize="50sp"
+                tools:ignore="ButtonStyle"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+
+            <Button
+                android:id="@+id/butlvl9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@mipmap/topcoloryellow"
+                android:scaleType="fitXY"
+                android:text="@string/_9"
+                android:textSize="50sp"
+                tools:ignore="ButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/butlvl10"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@mipmap/topcolorred"
+                android:scaleType="fitXY"
+                android:text="@string/_10"
+                android:textSize="50sp"
+                tools:ignore="ButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/butlvl11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@mipmap/topcolorblue"
+                android:scaleType="fitXY"
+                android:text="@string/_11"
+                android:textSize="50sp"
+                tools:ignore="ButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/butlvl12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@mipmap/topcolorgreen"
+                android:scaleType="fitXY"
+                android:text="@string/_12"
+                android:textSize="50sp"
+                tools:ignore="ButtonStyle"
+                />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <Button
+                android:id="@+id/butlvl13"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@mipmap/topcolorred"
+                android:scaleType="fitXY"
+                android:text="@string/_13"
+                android:textSize="50sp"
+                tools:ignore="ButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/butlvl14"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@mipmap/topcolorblue"
+                android:scaleType="fitXY"
+                android:text="@string/_14"
+                android:textSize="50sp"
+                tools:ignore="ButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/butlvl15"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@mipmap/topcolorgreen"
+                android:scaleType="fitXY"
+                android:text="@string/_15"
+                android:textSize="50sp"
+                tools:ignore="ButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/butlvl16"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@mipmap/topcoloryellow"
+                android:scaleType="fitXY"
+                android:text="@string/_16"
+                android:textSize="50sp"
+                tools:ignore="ButtonStyle"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <Button
+                android:id="@+id/butlvl17"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@mipmap/topcolorblue"
+                android:scaleType="fitXY"
+                android:text="@string/_17"
+                android:textSize="50sp"
+                tools:ignore="ButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/butlvl18"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@mipmap/topcolorgreen"
+                android:scaleType="fitXY"
+                android:text="@string/_18"
+                android:textSize="50sp"
+                tools:ignore="ButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/butlvl19"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@mipmap/topcoloryellow"
+                android:scaleType="fitXY"
+                android:text="@string/_19"
+                android:textSize="50sp"
+                tools:ignore="ButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/butlvl20"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@mipmap/topcolorred"
+                android:scaleType="fitXY"
+                android:text="@string/_20"
+                android:textSize="50sp"
+                tools:ignore="ButtonStyle"
+                />
+
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

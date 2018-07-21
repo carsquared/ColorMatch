@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_instructions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/crazycolor4"
+    android:padding="6dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttongotohome"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:background="@drawable/backbutton" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/textinstructionstitle"
+        android:textColor="@android:color/white"
+        android:textSize="28sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/textInstructions"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="normal|bold" />
+</LinearLayout>

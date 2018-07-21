@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+
+    android:background="@drawable/stars1">
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageButton
+        android:id="@+id/backbut"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/backbutton"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="7dp"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game Modes"
+        android:textColor="@android:color/white"
+        android:textSize="36sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:id="@+id/classicbut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedgeblue"
+        android:text="Classic"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <View
+        android:layout_height="5dp"
+        android:layout_width="match_parent"/>
+
+    <Button
+        android:id="@+id/infinitebut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedgegreen"
+        android:text="Speed Run"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp" />
+
+    <View
+        android:layout_height="5dp"
+        android:layout_width="match_parent"/>
+
+    <Button
+        android:id="@+id/speedrunbut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedgeyellow"
+        android:text="Infinite"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp" />
+
+    <View
+        android:layout_height="5dp"
+        android:layout_width="match_parent"/>
+
+
+</LinearLayout>
+
+    </ScrollView>

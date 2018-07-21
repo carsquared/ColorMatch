@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_credits"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+    android:background="@android:color/black"
+
+    android:orientation="vertical">
+
+
+
+    <Button
+        android:id="@+id/buttongotohome"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:background="@drawable/backbutton" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="@string/credits"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/creditstext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:scrollbars="vertical"
+                android:text="@string/clintonAndCarterRay"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="29dp"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="@string/special_thanks"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="40sp"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/specialthankstext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:scrollbars="vertical"
+                android:text="@string/creditsActual"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

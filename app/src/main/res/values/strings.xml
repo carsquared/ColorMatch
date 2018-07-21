@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Color Match</string>
+
+    <string name="textviewtitle">Color Match</string>
+    <string name="buttontextinstructions">Instructions</string>
+    <string name="textInstructions">Click the button with the word that matches the color of the rectangle near the top of the page. The objective is to get the answer right before the time runs out! Good luck.</string>
+    <string name="textinstructionstitle">Instructions</string>
+    <string name="textwrong">WRONG!</string>
+    <string name="textoutoftime">OUT OF TIME!</string>
+
+
+    <string name="skip"><u>Skip</u></string>
+    <string name="textwonround">Complete</string>
+    <string name="buttontextred">RED</string>
+    <string name="buttontextgreen">GREEN</string>
+    <string name="buttontextyellow">YELLOW</string>
+    <string name="buttontextblue">BLUE</string>
+    <string name="blue">BLUE</string>
+    <string name="yellow">YELLOW</string>
+    <string name="red">RED</string>
+    <string name="green">GREEN</string>
+    <string name="levelon">getLevelon()</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <!--Strings from sample-->
+
+    <string name="sign_in_explanation">Sign to save your progress and keep it synchronized across all your devices."</string>
+    <string name="you_are_signed_in">You are signed in with Google. Your progress will be automatically saved online.</string>
+
+
+    <string name="level">Level</string>
+    <string name="loading_from_cloud">Loading your progress.</string>
+    <string name="menu_sync">Load</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_select">Select</string>
+    <string name="signin_other_error">There was an issue with sign in. Please try again later.</string>
+    <string name="title_saved_games">"Saved Games"</string>
+    <string name="title_load_game">Select saved game to load</string>
+    <string name="please_sign_in">"Please sign-in before playing"</string>
+    <string name="select_conflicted_game">Select which game to load</string>
+    <string name="format_days_ago">%d days ago</string>
+    <string name="format_hours_ago">%d hours ago</string>
+    <string name="format_minutes_ago">%d minutes ago</string>
+    <string name="format_seconds_ago">%d seconds ago</string>
+    <string name="moments_ago">moments ago</string>
+    <string name="snapshotimage_description">Saved image for snapshot</string>
+    <string name="status_exception_error">%1$s (status %2$d). %3$s.</string>
+    <string name="show_snapshots_error">There was a problem getting the select snapshot intent!</string>
+    <string name="write_snapshot_error">There was a problem writing the snapshot!</string>
+    <string name="error_opening_metadata">There was a problem opening the snapshot metadata!</string>
+    <string name="error_opening_filename">There was a problem opening the current save file!</string>
+    <string name="error_closing_metadata">There was a problem waiting for the snapshot metadata to close!</string>
+    <string name="error_closing_filename">There was a problem waiting for the current save file to close!</string>
+
+    <!-- Strings related to login -->
+    <string name="login">Login</string>
+    <string name="store">Store</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <!-- Example settings for Data & Sync -->
+
+    <!-- Example settings for Notifications -->
+
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="classic_mode">Classic Mode</string>
+    <string name="_10">10</string>
+    <string name="_11">11</string>
+    <string name="_12">12</string>
+    <string name="_13">13</string>
+    <string name="_14">14</string>
+    <string name="_15">15</string>
+    <string name="_16">16</string>
+    <string name="_17">17</string>
+    <string name="_18">18</string>
+    <string name="_19">19</string>
+    <string name="_20">20</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="ten">10</string>
+    <string name="eleven">11</string>
+    <string name="twelve">12</string>
+    <string name="thirteen">13</string>
+    <string name="fourteen">14</string>
+    <string name="fifteen">15</string>
+    <string name="sixteen">16</string>
+    <string name="seventeen">17</string>
+    <string name="eighteen">18</string>
+    <string name="nineteen">19</string>
+    <string name="twenty">20</string>
+    <string name="ClassicMode">Classic Mode</string>
+    <string name="loading">loading</string>
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="signed_out">Signed out</string>
+    <string name="password">password</string>
+    <string name="email_address">Email Address</string>
+    <string name="create_account">Create Account</string>
+    <string name="or">or</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="app_misconfigured">app misconfigured</string>
+    <string name="sign_in_failed">Sign in failed</string>
+    <string name="license_failed">License failed</string>
+    <string name="sign_in_with_google">Sign In with Google</string>
+
+    <string name="sign_out">Sign Out</string>
+    <string name="email">email</string>
+    <string name="Level">Level  </string>
+    <string name="nothing"> </string>
+
+    <string name="no_account_yet_create_one">No account yet? Create one</string>
+    <string name="signed_in">Signed In</string>
+    <string name="select_game">Select Game</string>
+    <string name="show_ui">Show UI</string>
+    <string name="creditsActual">Mame and Papa (for providing us with milkshakes)  Telegram (for effectively sending the project back and forth)  Android (for being an open source project)  VIZIO (for making TVs with HDMI input because Clinton broke his laptop screen)  Idiots who make tutorials but actually don\'t know what they\'re doing (to laugh at)  Amazon Prime (for having a wide variety of music to listen to and shows to watch while coding)  Late nights (for causing us to forget that code that took us 7 hours to figure out)  Comfy chairs (obviously)  GIMP (to make really cool pictures and backgrounds with)  Google (for when we had no idea what to do)   sketchware  (it\'s great, trust us)  //okay everything looks good so far</string>
+    <string name="credits">Credits:</string>
+    <string name="clintonAndCarterRay">Clinton Ray Carter Ray</string>
+    <string name="special_thanks">Special Thanks:</string>
+</resources>
