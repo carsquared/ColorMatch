@@ -16,6 +16,8 @@ import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import static carsquared.colormatch.level.lvl;
+
 public class gameplay extends genran implements View.OnClickListener {
 
     Intent go = new Intent();

@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         buttoninstructions = findViewById(R.id.buttoninstructions);
-        buttonLogin = findViewById(R.id.buttonLogin);
+
         buttonstore = findViewById(R.id.buttonstore);
         buttonstart = findViewById(R.id.buttonstart);
         optionsButton = findViewById(R.id.optionsButton);
@@ -111,9 +111,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.buttonLogin:
 
-                break;
 
 
             case R.id.buttonstart:
