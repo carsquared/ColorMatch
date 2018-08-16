@@ -14,6 +14,7 @@ import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.auth.api.signin.GoogleSignInResult;
+import com.google.android.gms.common.SignInButton;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 
@@ -23,7 +24,8 @@ public class loginLauncher extends AppCompatActivity implements View.OnClickList
     // Request code used to invoke sign in user interactions.
     private static final int RC_SIGN_IN = 9001;
 
-    Button buttonLogin;
+    SignInButton buttonLogin;
+    Intent go = new Intent();
 
 
     @Override
@@ -33,6 +35,11 @@ public class loginLauncher extends AppCompatActivity implements View.OnClickList
 
         buttonLogin = findViewById(R.id.buttonLogin);
         buttonLogin.setOnClickListener(this);
+
+        if (isSignedIn()) {
+            go.setClass(getApplicationContext(),MainActivity.class);
+
+        }
 
     }
 
@@ -77,6 +84,7 @@ public class loginLauncher extends AppCompatActivity implements View.OnClickList
             if (result.isSuccess()) {
                 // The signed in account is stored in the result.
                 GoogleSignInAccount signedInAccount = result.getSignInAccount();
+                go.setClass(getApplicationContext(), MainActivity.class);
             } else {
                 String message = result.getStatus().getStatusMessage();
                 if (message == null || message.isEmpty()) {
@@ -93,6 +101,7 @@ public class loginLauncher extends AppCompatActivity implements View.OnClickList
         switch (v.getId()) {
             case R.id.buttonLogin:
                 startSignInIntent();
+
         }
 
     }
