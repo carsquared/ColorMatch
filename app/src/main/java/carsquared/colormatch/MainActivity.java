@@ -130,8 +130,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
             case R.id.optionsButton:
-                go.setClass(getApplicationContext(),options_dialog_Activity.class);
-                startActivity(go);
+
 
                 sound = soundPrefs.getInt(soundInt, defaultSoundInt);
                 soundEditor = soundPrefs.edit();
