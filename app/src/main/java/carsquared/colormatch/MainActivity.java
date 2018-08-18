@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         buttoninstructions.setOnClickListener(this);
         buttonstore.setOnClickListener(this);
         optionsButton.setOnClickListener(this);
-        buttonLogin.setOnClickListener(this);
+
         soundPrefs = getSharedPreferences(soundData, MODE_PRIVATE);
         sound = soundPrefs.getInt(soundInt, defaultSoundInt);
         textviewcoinnum = findViewById(R.id.textviewcoinnum);

@@ -70,8 +70,7 @@ public class Opening extends AppCompatActivity {
 
 
                         if (isSignedIn()) {
-                        go.setClass(getApplicationContext(), MainActivity.class);
-                        startActivity(go);
+
                     }
 
                     }
@@ -93,6 +92,8 @@ public class Opening extends AppCompatActivity {
                         if (task.isSuccessful()) {
                             // The signed in account is stored in the task's result.
                             GoogleSignInAccount signedInAccount = task.getResult();
+                            go.setClass(getApplicationContext(), MainActivity.class);
+                            startActivity(go);
                         } else {
                             // Player will need to sign-in explicitly using via UI
                         }
