@@ -289,7 +289,7 @@ public class LevelActivity extends AppCompatActivity {
         butlvl5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                level.setLvl(5);
                 go.setClass(getApplicationContext(), gameplay.class);
                 startActivity(go);
                 finish();
@@ -299,7 +299,7 @@ public class LevelActivity extends AppCompatActivity {
         butlvl6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                level.setLvl(6);
                 go.setClass(getApplicationContext(), gameplay.class);
                 startActivity(go);
                 finish();
@@ -309,7 +309,7 @@ public class LevelActivity extends AppCompatActivity {
         butlvl7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                level.setLvl(7);
                 go.setClass(getApplicationContext(), gameplay.class);
                 startActivity(go);
                 finish();
@@ -320,7 +320,7 @@ public class LevelActivity extends AppCompatActivity {
         butlvl8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                level.setLvl(8);
                 go.setClass(getApplicationContext(), gameplay.class);
                 startActivity(go);
                 finish();
@@ -330,7 +330,7 @@ public class LevelActivity extends AppCompatActivity {
         butlvl9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                level.setLvl(9);
                 go.setClass(getApplicationContext(), gameplay.class);
                 startActivity(go);
                 finish();
@@ -340,7 +340,7 @@ public class LevelActivity extends AppCompatActivity {
         butlvl10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                level.setLvl(10);
                 go.setClass(getApplicationContext(), gameplay.class);
                 startActivity(go);
                 finish();
@@ -350,7 +350,7 @@ public class LevelActivity extends AppCompatActivity {
         butlvl11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                level.setLvl(11);
                 go.setClass(getApplicationContext(), gameplay.class);
                 startActivity(go);
                 finish();
@@ -360,7 +360,7 @@ public class LevelActivity extends AppCompatActivity {
         butlvl12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                level.setLvl(12);
                 go.setClass(getApplicationContext(), gameplay.class);
                 startActivity(go);
                 finish();
@@ -370,7 +370,7 @@ public class LevelActivity extends AppCompatActivity {
         butlvl13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                level.setLvl(13);
                 go.setClass(getApplicationContext(), gameplay.class);
                 startActivity(go);
                 finish();
@@ -380,7 +380,7 @@ public class LevelActivity extends AppCompatActivity {
         butlvl14.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                level.setLvl(14);
                 go.setClass(getApplicationContext(), gameplay.class);
                 startActivity(go);
                 finish();
@@ -390,7 +390,7 @@ public class LevelActivity extends AppCompatActivity {
         butlvl15.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                level.setLvl(15);
                 go.setClass(getApplicationContext(), gameplay.class);
                 startActivity(go);
                 finish();
@@ -400,6 +400,7 @@ public class LevelActivity extends AppCompatActivity {
         butlvl16.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                level.setLvl(16);
                 go.setClass(getApplicationContext(), gameplay.class);
                 startActivity(go);
                 finish();
@@ -409,6 +410,7 @@ public class LevelActivity extends AppCompatActivity {
         butlvl17.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                level.setLvl(17);
                 go.setClass(getApplicationContext(), gameplay.class);
                 startActivity(go);
                 finish();
@@ -418,7 +420,7 @@ public class LevelActivity extends AppCompatActivity {
         butlvl18.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                level.setLvl(18);
                 go.setClass(getApplicationContext(), gameplay.class);
                 startActivity(go);
                 finish();
@@ -428,6 +430,7 @@ public class LevelActivity extends AppCompatActivity {
         butlvl19.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                level.setLvl(19);
                 go.setClass(getApplicationContext(), gameplay.class);
                 startActivity(go);
                 finish();
@@ -437,7 +440,7 @@ public class LevelActivity extends AppCompatActivity {
         butlvl20.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                level.setLvl(20);
                 go.setClass(getApplicationContext(), gameplay.class);
                 startActivity(go);
                 finish();
