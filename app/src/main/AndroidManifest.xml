@@ -16,7 +16,7 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".Opening" />
+
         <activity android:name=".MainActivity" />
         <activity android:name=".gamemodes" />
         <activity android:name=".LevelActivity" />
@@ -29,8 +29,10 @@
         <activity android:name=".options_dialog_Activity" />
         <activity android:name=".speedrun" />
         <activity android:name=".winothergamemodes" />
-        <activity android:name=".winroundactivity"></activity>
-        <activity android:name=".loginLauncher">
+        <activity android:name=".winroundactivity">
+
+        </activity>
+        <activity android:name=".Opening">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
